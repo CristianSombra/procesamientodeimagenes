@@ -1,0 +1,11 @@
+CLASE 6 - CRISTIAN SOMBRA
+Profesor: Juan Pablo Zarza
+Opción B: PyTorch
+
+1. Descomprimir el ZIP.
+2. Abrir Clase6_Cristian_Sombra.ipynb en Jupyter y ejecutar las celdas en orden.
+3. En Colab: abrir la notebook y subir también el ZIP completo al panel de archivos antes de ejecutar.
+
+Dependencias locales: pip install torch pillow numpy matplotlib jupyter
+No se necesita GPU ni descargar imágenes.
+El ZIP incluye las ilustraciones de prueba en data/objects y data/backgrounds.

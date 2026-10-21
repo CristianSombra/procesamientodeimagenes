@@ -42,6 +42,16 @@ Laboratorio de suavizado, detección de bordes y análisis en el dominio de la f
 - **Pipeline integrado:** combinación de reducción de ruido, suavizado, detección de bordes y análisis de frecuencia.
 - **Actividad de foro:** preparación de imágenes de entrada y salida, tres líneas de procesamiento y justificación del uso de mediana ante ruido sal y pimienta simulado.
 
+### Clase 6 — Composición de imágenes con PyTorch
+
+Realicé la actividad para el foro de la **opción B**, utilizando un `Dataset` propio y un `DataLoader` para combinar objetos y fondos.
+
+- **Imágenes de entrada:** trabajé con ilustraciones de una manzana y una botella sobre fondo blanco y dos paisajes.
+- **Máscaras por luminancia:** convertí los objetos a escala de grises y apliqué un umbral para separarlos del fondo blanco.
+- **Suavizado y composición:** suavicé las máscaras con un filtro gaussiano y combiné cada objeto con los fondos mediante alpha-blending.
+- **Procesamiento por lotes:** mostré las cuatro combinaciones y sus máscaras en un lote con PyTorch.
+- **Comparación y conclusiones:** comparé los bordes con y sin suavizado y describí las limitaciones del método cuando el objeto y el fondo tienen un brillo similar.
+
 ## 🔬 Prácticas de la Clase 8
 
 | Actividad | Implementación |
@@ -65,6 +75,7 @@ Las comparaciones permiten observar cómo cada técnica modifica el ruido, los c
 | **scikit-image** | Procesamiento de imágenes en las primeras prácticas. |
 | **Matplotlib** | Visualización de imágenes, máscaras, espectros y comparaciones. |
 | **Pillow** | Lectura y manipulación de imágenes. |
+| **PyTorch** | Dataset, DataLoader y composición de imágenes con tensores. |
 
 ## ▶️ Cómo explorar las prácticas
 
