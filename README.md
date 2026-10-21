@@ -17,6 +17,8 @@ Bases conceptuales de la visión por computadora y el procesamiento digital de i
 - **Teoría e historia:** evolución del procesamiento digital de imágenes hasta la inteligencia artificial moderna.
 - **Análisis crítico:** impacto ético y cultural de los filtros en herramientas como Photoshop y GIMP.
 - **Práctica con código:** aplicación de desenfoque gaussiano con Python y `scikit-image`.
+- **Comparación de herramientas:** investigación sobre Photoshop y GIMP, con ejemplos de filtros y posibilidades de personalización.
+- **Imágenes satelitales:** análisis de captura, transmisión y uso de IA a bordo, contrastando la información con fuentes de NASA, USGS y ESA.
 
 ### Semana 2 · Clase 4 — Laboratorio de Espacios de Color
 
